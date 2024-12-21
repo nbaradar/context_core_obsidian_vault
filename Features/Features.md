@@ -1,15 +1,15 @@
 **What are all the features of ContextCore? What are FREE features vs PRO features?**
 
-| Name                        | Description                                                                                                                                                                                          | Pro/Free? | Open Source? |
-| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------ |
-| Import/Export               | Allow import/export of the entire context DB (Of just shards) as JSON? BLOB is prob better. Also allow users to import contexts from LLM providers (chatgpt). Need to convert to ContextCore schema. | Free      | Yes          |
-| Elements                    | Think of context switching. Allows you to turn on/off different contextual data depending on what you want the LLM to understand about you                                                           | Free      | Yes          |
-| Integrations                | Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization                                                                                    | Pro       | No           |
-| Humors                      | Think of these as emotional states / moods                                                                                                                                                           | Pro       | No           |
-| Mimics                      | Think of these as Versions of people in terms of their history, thinking pattern, and style of speaking                                                                                              | Pro       | No           |
-| Prisms (or Focus)           | Think of these as configuration profiles that contain different combinations of Context Switching, Humors, and Mimc settings. Kinda like “work focus” on iPhone or something.                        | Pro       | No           |
-| ==Prompt Management==       | ==Allow users to save, organize, and manage their query responses? Maybe allow for tagging of responses for quick look up?==                                                                         | ==Pro==   | ==No==       |
-| ==Scheduling/Automations?== | ==Automatically send queries to certain prisms based on your automation schedules?==                                                                                                                 | ==Pro==   | ==No==       |
+| Name                    | Description                                                                                                                                                                                          | Pro/Free? | Open Source? |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------ |
+| Import/Export           | Allow import/export of the entire context DB (Of just shards) as JSON? BLOB is prob better. Also allow users to import contexts from LLM providers (chatgpt). Need to convert to ContextCore schema. | Free      | Yes          |
+| Elements                | Think of context switching. Allows you to turn on/off different contextual data depending on what you want the LLM to understand about you                                                           | Free      | Yes          |
+| Integrations            | Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization                                                                                    | Pro       | No           |
+| Humors                  | Think of these as emotional states / moods                                                                                                                                                           | Pro       | No           |
+| Mimics                  | Think of these as Versions of people in terms of their history, thinking pattern, and style of speaking                                                                                              | Pro       | No           |
+| Prisms (or Focus)       | Think of these as configuration profiles that contain different combinations of Context Switching, Humors, and Mimc settings. Kinda like “work focus” on iPhone or something.                        | Pro       | No           |
+| Prompt Management       | Allow users to save, organize, and manage their query responses? Maybe allow for tagging of responses for quick look up?                                                                             | Pro       | No           |
+| Scheduling/Automations? | Automatically send queries to certain prisms based on your automation schedules?                                                                                                                     | Pro       | No           |
 
 - Import/Export: Allow import/export of the entire context DB. Also allow users to import contexts from LLM providers (chatgpt). Need to convert to ContextCore schema.
 - Integrations: Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization
@@ -280,5 +280,6 @@ If you prioritize Elements, Integrations, and Import/Export for the MVP, you’l
 - **[[Prisms]]**
 - **[[Privacy]]**
 - [[Prompt Management]]
+- [[Scheduling+Automation]]
 
 %% End Waypoint %%

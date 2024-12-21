@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Features/Features.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Features"
             }
           }
         ]
@@ -163,8 +163,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f70680fddbd36e8",
+  "active": "9ec059a79353f5f1",
   "lastOpenFiles": [
+    "Features/Scheduling+Automation.md",
+    "Features/Onboarding.md",
+    "Features/Elements.md",
+    "Features/Humors.md",
+    "Features/Integrations.md",
+    "Features/Mimics.md",
+    "Features/Prompt Management.md",
+    "Features/Features.md",
+    "README.md",
     "New Text Document.txt",
     "test",
     "Features/Prisms/Conceptual Framework.md",
@@ -177,14 +186,9 @@
     "Misc/Misc.md",
     "Misc/ChatGPT Limits.md",
     "Misc/Motivation.md",
-    "README.md",
-    "Features/Features.md",
     "Features/Prisms/Prisms.md",
     "Features/Prisms",
-    "Features/Elements.md",
-    "Features/Mimics.md",
     "Overview/Overview.md",
-    "Features/Onboarding.md",
     "ContextWeave/Proof of Concept/Diagrams.md",
     "ContextWeave/Claude Research.md",
     "ContextWeave/ContextWeave.md",
@@ -192,14 +196,10 @@
     "ContextWeave/Proof of Concept/ContextStore Database.md",
     "Security/Github Security Concerns.md",
     "Security/Security.md",
-    "Research/Research.md",
-    "Research/Market Research/Market Research.md",
-    "Research/Market Research/VS LangChain.md",
     "Features/Privacy",
     "Research/Market Research",
     "ContextWeave/Proof of Concept",
     "Security",
-    "Misc",
-    "Akasha"
+    "Misc"
   ]
 }
