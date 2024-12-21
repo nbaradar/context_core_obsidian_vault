@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "About.md",
+                "file": "README.md.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "About"
+              "title": "README.md"
             }
           }
         ]
@@ -163,11 +163,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9ec059a79353f5f1",
+  "active": "0f70680fddbd36e8",
   "lastOpenFiles": [
+    "test",
     "Features/Prisms/Conceptual Framework.md",
     "context_core_obsidian_vault",
-    "test",
     "Akasha/Akasha.md",
     "Research/Initial Research/Intellectual Property Protection/Intellectual Property Protection.md",
     "Research/Initial Research/Intellectual Property Protection/Licensing + Copyright.md",
@@ -176,7 +176,7 @@
     "Misc/Misc.md",
     "Misc/ChatGPT Limits.md",
     "Misc/Motivation.md",
-    "About.md",
+    "README.md.md",
     "Features/Features.md",
     "Features/Prisms/Prisms.md",
     "Features/Prisms",
