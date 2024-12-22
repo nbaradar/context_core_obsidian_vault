@@ -1,4 +1,6 @@
-Humors: Think of moods or emotional states. These are traits that your AI could possess when answering, not necessarily who they are or their personality. 
+# Humors
+Think of moods or emotional states. They should only really be adjectives. 
+These are traits that your AI could possess when answering, not necessarily who they are or their personality. 
 
 - Could make ContextCore a prompt engineering solution as well. On top of providing it information to build contexts, you can store prompts that affect the way the LLM will interact with you, which the ContextCore service will include when sending your RAG data as well. So context core maintains and sends contextual information that is categorized and can be enabled/disabled AND has the ability to engineer prompts by enabling/disabling stored prompts.
 	- Say for instance, you want a more conversational LLM chat as if you are speaking with a friend, instead of a very detailed and precise and verbose answer...
@@ -6,6 +8,11 @@ Humors: Think of moods or emotional states. These are traits that your AI could 
 		- You could store that prompt as a “humor” of the AI (kind of like how alchemists used [Humorism](https://en.wikipedia.org/wiki/Humorism). So this humor would be called “Real Person” and you could switch it on and off. 
 	- You could also make a online “Marketplace” where people can share their humors and buy/sell humors from other users. 
     
+#### Example Humors 
+"Neckbeard Redditor" prism
+"Informal. Sarcastic. Passive-Aggressive. Chat in lowercase. Humorous. Brutal. Unfriendly. Sardonic. Snarky. Rude." 
+
+---
 
 # ChatGPT Research
 This idea fits perfectly with the vision of ContextCore and significantly expands its utility! Here's why it aligns so well and why I think it enhances the value proposition of your project:
