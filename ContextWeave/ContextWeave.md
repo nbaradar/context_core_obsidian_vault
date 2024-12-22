@@ -34,9 +34,9 @@ Core Features:
 
 
 %% Begin Waypoint %%
-- [[Claude Research]]
-- [[Overall Plan]]
-- **[[Proof of Concept]]**
+- [Claude Research](Claude%20Research.md.md)
+- [Overall Plan](Overall%20Plan.md.md)
+- **[Proof of Concept](Proof%20of%20Concept.md.md)**
 
 %% End Waypoint %%
 

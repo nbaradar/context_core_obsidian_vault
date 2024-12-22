@@ -145,9 +145,9 @@ Sources:
 ](https://www.wsj.com/articles/how-a-decades-old-technology-and-a-paper-from-meta-created-an-ai-industry-standard-354a810e?utm_source=chatgpt.com)[https://www.wsj.com/articles/from-rags-to-vectors-howbusinessesare-customizingai-models-beea4f11?utm_source=chatgpt.com](https://www.wsj.com/articles/from-rags-to-vectors-howbusinessesare-customizingai-models-beea4f11?utm_source=chatgpt.com)
 
 %% Begin Waypoint %%
-- [[Logo & Branding]]
-- [[Name]]
-- [[Viability]]
-- [[Vision]]
+- [[Logo & Branding.md]]
+- [[Name.md]]
+- [[Viability.md]]
+- [[Vision.md]]
 
 %% End Waypoint %%
