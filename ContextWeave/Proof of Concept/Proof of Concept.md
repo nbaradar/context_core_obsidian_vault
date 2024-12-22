@@ -145,8 +145,6 @@ This plan ensures that you can demonstrate core functionality quickly while leav
 
 %% Begin Waypoint %%
 - **[[ContextStore Database]]**
-	- [[Random Old GPT response]]
-	- [[Schema Design]]
 - [[Diagrams]]
 - [[RAG Pipeline]]
 

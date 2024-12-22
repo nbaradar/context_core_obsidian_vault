@@ -1400,6 +1400,5 @@ While building a business around ContextCore is challenging, the demand for priv
 %% Begin Waypoint %%
 - **[[Intellectual Property Protection]]**
 - [[Open Sourcing Plans]]
-- [[RAG (Retrieval Augmented Generation)]]
 
 %% End Waypoint %%

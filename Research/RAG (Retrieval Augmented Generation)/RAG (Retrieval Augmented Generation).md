@@ -170,3 +170,8 @@ Your use of RAG in this project is not only appropriate but also a textbook exam
 
   
 **
+
+%% Begin Waypoint %%
+- [[Semantic-based Retrieval]]
+
+%% End Waypoint %%

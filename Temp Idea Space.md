@@ -1,23 +1,25 @@
 # **Misc Ideas**
-- Can you use LLM to create categories on the data? 
-- Can you use LLM to tokenize the data with enough granularity?
-- Could add integrations at some point to auto-populate your context DB
+- Can you **use LLM to create categories on the data**? 
+- Can you **use LLM to tokenize the data with enough granularity**?
+- Could **add integrations** at some point to auto-populate your context DB
 	- Example: Connect to Apple Health to directly update your DB with health data every week. OR Connect to your bank account to directly update your transaction data/history every week. OR Connect your messaging app to auto-store and parse logs to gain more context/understanding about the user.
-- Humors: Could make ContextCore a prompt engineering solution as well. On top of providing it information to build contexts, you can store prompts that affect the way the LLM will interact with you, which the ContextCore service will include when sending your RAG data as well. So context core maintains and sends contextual information that is categorized and can be enabled/disabled AND has the ability to engineer prompts by enabling/disabling stored prompts.
+- **Humors**: Could make ContextCore a prompt engineering solution as well. On top of providing it information to build contexts, you can store prompts that affect the way the LLM will interact with you, which the ContextCore service will include when sending your RAG data as well. So context core maintains and sends contextual information that is categorized and can be enabled/disabled AND has the ability to engineer prompts by enabling/disabling stored prompts.
 	- Say for instance, you want a more conversational LLM chat as if you are speaking with a friend, instead of a very detailed and precise and verbose answer...
 	- You could have ContextCore store many different types of prompt engineering samples. For example, look at this very detailed prompt:    [https://www.reddit.com/r/ChatGPTPro/comments/1hih8s8/i_built_a_prompt_that_makes_ai_chat_like_a_real/](https://www.reddit.com/r/ChatGPTPro/comments/1hih8s8/i_built_a_prompt_that_makes_ai_chat_like_a_real/)
 		- You could store that prompt as a “humor” of the AI (kind of like how alchemists used [Humorism](https://en.wikipedia.org/wiki/Humorism). So this humor would be called “Real Person” and you could switch it on and off. 
 		- You could create additional humors like “motivating, self-deprecating, inspirational, etc” and create precise custom prompts that would cause the LLM to adopt that “humor”  in its responses. 
     
-- Mimics: Maybe humors should be more like traits that you can turn on/off, or general personality types, and you can have a separate feature called Mimics that will literally emulate a person
-- Prisms: You should allow users to save different configuration profiles. So let’s say for instance I want to get dietary advice specifically from the rock, but I also want the rock to be motivating and assertive
+- **Mimics**: Maybe humors should be more like traits that you can turn on/off, or general personality types, and you can have a separate feature called Mimics that will literally emulate a person
+- **Prisms**: You should allow users to save different configuration profiles. So let’s say for instance I want to get dietary advice specifically from the rock, but I also want the rock to be motivating and assertive
 	- EXAMPLE: I can create a Prism called “Angry Rock Trainer” or something
 		- Contexts: Health, AppleHealth, Fitness, Workouts, Diet, Nutrition, Activity, Sleep
 		- Humors:  
 		- Mimics: Dwayne the rock Johnson
 
-- For advertisement and monetization, is it possible to serve ads for customers but in a private way so you dont have to send customer data to any companies? 
-is it possible to add a layer on top of peoples ContextSource database that can request for ads based on the context that exists inside the users database, but in a safe and secure manner?
+- For **advertisement and monetization**, is it possible to serve ads for customers but in a private way so you dont have to send customer data to any companies? is it possible to add a layer on top of peoples ContextSource database that can request for ads based on the context that exists inside the users database, but in a safe and secure manner?
+
+- Can you create a logical seperation for projects? Kind of like what ChatGPT does. For example, I want to consult LLMs to help me with this project, ContextCore. When I upload any files or docuemntation related to my project, I can store them as a context to my ContextStore, I'll create an element called "ContextCore" and tag all the relevant data with it. 
+	- Then, you can create a Mimic like "Software Development Engineer" 
 
 
 # ChatGPT Response
