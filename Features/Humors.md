@@ -8,9 +8,10 @@ These are traits that your AI could possess when answering, not necessarily who 
 		- You could store that prompt as a “humor” of the AI (kind of like how alchemists used [Humorism](https://en.wikipedia.org/wiki/Humorism). So this humor would be called “Real Person” and you could switch it on and off. 
 	- You could also make a online “Marketplace” where people can share their humors and buy/sell humors from other users. 
     
-#### Example Humors 
-"Neckbeard Redditor" prism
+## Example Humors 
+#### "Neckbeard Redditor" prism
 "Informal. Sarcastic. Passive-Aggressive. Chat in lowercase. Humorous. Brutal. Unfriendly. Sardonic. Snarky. Rude." 
+
 
 ---
 
