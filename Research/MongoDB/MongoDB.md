@@ -39,6 +39,8 @@ The default connection string should be `mongodb://localhost:27017`
 
 
 %% Begin Waypoint %%
-- [[Concepts]]
+- [[MongoDB Concepts]]
+- [[Mongoose]]
+- [[Mongosh Commands]]
 
 %% End Waypoint %%
