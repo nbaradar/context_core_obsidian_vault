@@ -1,7 +1,7 @@
 %% Begin Waypoint %%
 - **[[Initial Research]]**
 - **[[Market Research]]**
+- **[[MongoDB]]**
 - **[[RAG (Retrieval Augmented Generation)]]**
-- [[Untitled]]
 
 %% End Waypoint %%
