@@ -271,7 +271,7 @@ If you prioritize Elements, Integrations, and Import/Export for the MVP, you’l
 **
 
 %% Begin Waypoint %%
-- [[Elements]]
+- **[[Elements]]**
 - [[Humors]]
 - [[Import+Export]]
 - [[Integrations]]
@@ -281,6 +281,5 @@ If you prioritize Elements, Integrations, and Import/Export for the MVP, you’l
 - **[[Privacy]]**
 - [[Prompt Management]]
 - [[Scheduling+Automation]]
-- [[Sub-Elements]]
 
 %% End Waypoint %%

@@ -76,7 +76,7 @@ db.myCollection.updateOne(
 - **Test Data**
 	- [['Finance' contexts]]
 	- [['Health' contexts]]
-	- [['Personal Development' Data]]
+	- [['Personal Development' contexts]]
 
 %% End Waypoint %%
 
