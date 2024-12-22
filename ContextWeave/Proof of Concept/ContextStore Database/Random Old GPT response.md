@@ -1,23 +1,11 @@
-# DATABASE
-
-You can literally just use JSON files for now. Obviously we will expand this to be a vector database later. 
-
-  
-
-What would the schema be? Every piece of context needs to have this associative data? 
-
 You're on the right track thinking about associative data. It's crucial for making your context database truly useful. Here's a breakdown of required and desirable associative data for a context entry like a restaurant receipt, keeping in mind the goal of making it useful for an LLM:
 
 Required Associative Data (Essential for Functionality):
 
 - Category: As you mentioned, this is essential. It defines the type of information and allows for filtering and organization. Examples: Financial, Food, Personal, Travel, Social, etc.
-    
 - Timestamp: The date and time the receipt was generated. This is vital for chronological organization, searching by date, and understanding the context of events.
-    
 - Source: Where did this data come from? (e.g., "Email," "Photo," "Manual Entry," "Bank Transaction"). This helps with provenance and tracing the origin of information.
-    
 - Content (Textual Representation): The actual text extracted from the receipt. This is what the LLM will primarily interact with. Even if you store an image, you must have a text version.
-    
 
 Desirable Associative Data (Enhances Utility and Context):
 

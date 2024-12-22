@@ -144,7 +144,9 @@ Once the PoC is functional, consider adding:
 This plan ensures that you can demonstrate core functionality quickly while leaving room for iterative development. Would you like assistance with specific parts, such as writing the MongoDB queries or setting up the ChatGPT API integration?
 
 %% Begin Waypoint %%
-- [[ContextStore Database]]
+- **[[ContextStore Database]]**
+	- [[Random Old GPT response]]
+	- [[Schema Design]]
 - [[Diagrams]]
 - [[RAG Pipeline]]
 
