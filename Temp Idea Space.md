@@ -16,6 +16,9 @@
 		- Humors:  
 		- Mimics: Dwayne the rock Johnson
 
+- For advertisement and monetization, is it possible to serve ads for customers but in a private way so you dont have to send customer data to any companies? 
+is it possible to add a layer on top of peoples ContextSource database that can request for ads based on the context that exists inside the users database, but in a safe and secure manner?
+
 
 # ChatGPT Response
 It sounds like you've refined the direction of the ContextCore project, and it looks like a powerful framework with a lot of potential! Here's a breakdown of what you've outlined, and a few suggestions to help clarify and expand on the ideas:
