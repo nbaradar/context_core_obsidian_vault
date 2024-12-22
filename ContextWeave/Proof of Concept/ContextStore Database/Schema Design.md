@@ -34,19 +34,6 @@ To future-proof the design while keeping it simple, I recommend adding two light
 
 ---
 ## ~={red}IMPORTANT: Future Proofing for Semantic RAG=~
-I want to store it in JSON format. I also want it to be scalable and future proof it with different RAG implementations. Design the schema to support **semantic-based RAG** so we can transition away from tag-based RAG.
-
-This means you need to include an **EMBEDDING** field with a vector value:
-```json
-{
-  "_id": "unique_context_id",
-  "title": "Health Goals",
-  "element": ["health", "diet"],
-  "data": "I prefer a Mediterranean diet and avoid gluten.",
-  "embedding": [0.123, -0.456, 0.789]  // Example vector
-}
-```
-
 >[!info]- How "Elements" fit in Semantic-Based RAG
 >**In Semantic-Based RAG**
 >- Instead of relying on exact tag matches, **embeddings** are used to represent the semantic meaning of both the query and the stored contexts.
@@ -87,4 +74,23 @@ This means you need to include an **EMBEDDING** field with a vector value:
 >	- As new elements are added, they enrich the organizational structure without impacting embedding-based retrieval.
 >- **Explainability**
 >	- Elements provide an easy way to explain why certain contexts were retrieved (e.g., _"This document was prioritized because it matches your query and falls under the 'health' element."_).
+
+I want to store it in JSON format. I also want it to be scalable and future proof it with different RAG implementations. Design the schema to support **semantic-based RAG** so we can transition away from tag-based RAG.
+
+This means you need to include an **EMBEDDING** field with a vector value
+```json
+{
+  "_id": "unique_context_id",
+  "title": "Health Goals",
+  "element": ["health", "diet"],
+  "data": "I prefer a Mediterranean diet and avoid gluten.",
+  "embedding": [0.123, -0.456, 0.789]  // Example vector
+}
+```
+
+BUT you can include this field later. Since you're using NoSQL, you can always change the schema later.
+Example command to add "embedding" field:
+```python
+db.contexts.update_many({}, {"$set": {"embedding": []}})
+```
 
