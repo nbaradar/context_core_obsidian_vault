@@ -1,9 +1,39 @@
-What is the initial schema? It should be very simple but still support scalability
+### Minimal Schema Based on PoC
+Here’s a streamlined schema for the **Proof of Concept**:
 
+| **Field**      | **Type**        | **Description**                                    |
+| -------------- | --------------- | -------------------------------------------------- |
+| `id`           | `string`        | Unique identifier for the context.                 |
+| `element`      | `array<string>` | Categories/tags that describe the context.         |
+| `data`         | `string`        | The actual information stored in the context.      |
+| `created_date` | `datetime`      | Timestamp indicating when the context was created. |
+### Recommended Schema for Scalability
+To future-proof the design while keeping it simple, I recommend adding two lightweight fields: `title` and `updated_date`.
 
+| **Field**      | **Type**        | **Description**                                              |
+| -------------- | --------------- | ------------------------------------------------------------ |
+| `id`           | `string`        | Unique identifier for the context.                           |
+| `element`      | `array<string>` | Categories/tags that describe the context.                   |
+| `data`         | `string`        | The actual information stored in the context.                |
+| `created_date` | `datetime`      | Timestamp indicating when the context was created.           |
+| `updated_date` | `datetime`      | Timestamp indicating the last time the context was modified. |
+| `title`        | `string`        | Short, human-readable summary of the context.                |
+### Example Schema JSON
+```json
+{
+  "_id": "unique_context_id",
+  "user_id": "user_123",  // Optional: Useful if supporting multiple users
+  "title": "Health Goals",
+  "element": ["health", "fitness", "diet"],
+  "data": "I prefer a Mediterranean diet and avoid gluten.",
+  "embedding": [0.123, -0.456, 0.789],  // Optional: For semantic search
+  "created_at": "2024-12-22T10:00:00Z",
+  "updated_at": "2024-12-22T10:00:00Z"
+}
+```
 
 ---
-## Future Proofing
+## ~={red}IMPORTANT: Future Proofing for Semantic RAG=~
 I want to store it in JSON format. I also want it to be scalable and future proof it with different RAG implementations. Design the schema to support **semantic-based RAG** so we can transition away from tag-based RAG.
 
 This means you need to include an **EMBEDDING** field with a vector value:

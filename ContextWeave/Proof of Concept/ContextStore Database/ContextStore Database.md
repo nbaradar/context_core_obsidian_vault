@@ -13,10 +13,11 @@ Here are the pieces involved in the ContextStore:
 How are you going to store this data?
 
 **NoSQL** should be used for Flexibility. Could switch to relational database later for performance gains
+For this reason, I'm going with **~={green}MongoDB=~** as my DB for POC. Notes found [[MongoDB|here]]
 
+Also need to design a [[Schema Design|Schema]] that is simple yet scalable. 
 
 %% Begin Waypoint %%
-- [[MongoDB Notes]]
 - [[Random Old GPT response]]
 - [[Schema Design]]
 
