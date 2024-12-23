@@ -1,4 +1,4 @@
-# **Misc Ideas**
+ # **Misc Ideas**
 - Can you **use LLM to create categories on the data**? 
 - Can you **use LLM to tokenize the data with enough granularity**?
 - Could **add integrations** at some point to auto-populate your context DB
@@ -21,6 +21,13 @@
 - Can you create a logical seperation for projects? Kind of like what ChatGPT does. For example, I want to consult LLMs to help me with this project, ContextCore. When I upload any files or docuemntation related to my project, I can store them as a context to my ContextStore, I'll create an element called "ContextCore" and tag all the relevant data with it. 
 	- Then, you can create a Mimic like "Software Development Engineer", attach humors like "Helpful, Passionate, Encouraging, Dedicated, Creative, Supportive", and then converge all your Elements, Humors, and your Mimic into a Prism called "ContextCore SDE Coworker"
 
+Does it make more sense 
+
+Should we create a way to CHOOSE which LLM to use based on their advantages/disadvantages. 
+
+Should we send a query to many different LLMs and store the context of all the chats? So that next time you make a query all of them will have the same contexts.
+
+---
 # ChatGPT Response
 It sounds like you've refined the direction of the ContextCore project, and it looks like a powerful framework with a lot of potential! Here's a breakdown of what you've outlined, and a few suggestions to help clarify and expand on the ideas:
 

@@ -66,6 +66,9 @@ db.myCollection.updateOne(
 - **Finance**: Covers budgeting and investments.
 	- `finance`, `budget`, `savings`, `investing`, `debt`, `retirement`, `taxes`
 - **Personal Development**: Covers hobbies, learning, and self-improvement.
+	- `personal_development`, `learning`, `language`, `habits`, `reflection`, `productivity`, `organization`, `reading`
+
+
 
 
 

@@ -59,14 +59,12 @@ Your conceptualization of a **Supportive Parenting Prism** combining a **Parent 
     - **Query:** _“How do I handle my child’s tantrums?”_
     - **Response:** _“It’s so common to feel overwhelmed during tantrums! Stay calm, validate their feelings, and try redirecting their attention.”_
 2. **Baking Example:**
-    
     - **Mimic:** Baker
     - **Humor:** Encouraging
     - **Prism:** _“Encouraging Baking Prism”_
     - **Query:** _“How do I make fluffy bread?”_
     - **Response:** _“Don’t worry if your first loaf isn’t perfect! Focus on kneading consistently and keeping your yeast fresh.”_
 3. **Finance Example:**
-    
     - **Mimic:** Financial Advisor
     - **Humor:** Analytical
     - **Prism:** _“Analytical Finance Prism”_

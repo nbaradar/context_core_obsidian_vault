@@ -1,15 +1,15 @@
 **What are all the features of ContextCore? What are FREE features vs PRO features?**
 
-| Name                    | Description                                                                                                                                                                                          | Pro/Free? | Open Source? |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------ |
-| Import/Export           | Allow import/export of the entire context DB (Of just shards) as JSON? BLOB is prob better. Also allow users to import contexts from LLM providers (chatgpt). Need to convert to ContextCore schema. | Free      | Yes          |
-| Elements                | Think of context switching. Allows you to turn on/off different contextual data depending on what you want the LLM to understand about you                                                           | Free      | Yes          |
-| Integrations            | Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization                                                                                    | Pro       | No           |
-| Humors                  | Think of these as emotional states / moods                                                                                                                                                           | Pro       | No           |
-| Mimics                  | Think of these as Versions of people in terms of their history, thinking pattern, and style of speaking                                                                                              | Pro       | No           |
-| Prisms (or Focus)       | Think of these as configuration profiles that contain different combinations of Context Switching, Humors, and Mimc settings. Kinda like “work focus” on iPhone or something.                        | Pro       | No           |
-| Prompt Management       | Allow users to save, organize, and manage their query responses? Maybe allow for tagging of responses for quick look up?                                                                             | Pro       | No           |
-| Scheduling/Automations? | Automatically send queries to certain prisms based on your automation schedules?                                                                                                                     | Pro       | No           |
+| Name                        | Description                                                                                                                                                                                          | Pro/Free? | Open Source? |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ------------ |
+| **Import/Export**           | Allow import/export of the entire context DB (Of just shards) as JSON? BLOB is prob better. Also allow users to import contexts from LLM providers (chatgpt). Need to convert to ContextCore schema. | Free      | Yes          |
+| **Elements**                | Think of context switching. Allows you to turn on/off different contextual data depending on what you want the LLM to understand about you                                                           | Free      | Yes          |
+| **Integrations**            | Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization                                                                                    | Pro       | No           |
+| **Humors**                  | Think of these as emotional states / moods                                                                                                                                                           | Pro       | No           |
+| **Mimics**                  | Think of these as Versions of people in terms of their history, thinking pattern, and style of speaking                                                                                              | Pro       | No           |
+| **Prisms (or Focus)**       | Think of these as configuration profiles that contain different combinations of Context Switching, Humors, and Mimc settings. Kinda like “work focus” on iPhone or something.                        | Pro       | No           |
+| **Prompt Management**       | Allow users to save, organize, and manage their query responses? Maybe allow for tagging of responses for quick look up?                                                                             | Pro       | No           |
+| **Scheduling/Automations?** | Automatically send queries to certain prisms based on your automation schedules?                                                                                                                     | Pro       | No           |
 
 - Import/Export: Allow import/export of the entire context DB. Also allow users to import contexts from LLM providers (chatgpt). Need to convert to ContextCore schema.
 - Integrations: Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization
@@ -28,36 +28,28 @@ What do you think of these features for ContextCore?
 Your feature ideas for ContextCore are well thought out and provide a clear vision for a flexible, personalized context management system. Here's a breakdown of what works well and areas to consider refining:
 
 ---
-
 ### Feature Feedback:
-
 1. Import/Export
-
 - Strengths: Enabling users to import/export entire context databases promotes interoperability and reduces vendor lock-in. Converting external contexts (e.g., ChatGPT) to your schema is a strong differentiator, especially for migrating data across systems.
 - Considerations: Focus on schema standardization and compatibility with widely-used JSON or YAML formats for extensibility. Allow partial exports for fine-grained control over data sharing.
 
 3. Integrations
-
 - Strengths: Automatic ingestion and categorization streamline workflows and support continuous data enrichment, which is a critical feature for enterprise use cases.
 - Considerations: Consider adding pre-built connectors (e.g., Google Drive, Notion, Slack) and APIs for custom integrations to appeal to developers.
 
 5. Elements/Shards
-
 - Strengths: Context switching is an intuitive and powerful way to refine AI behavior for different scenarios. Users can dynamically adapt outputs without manually restructuring datasets.
 - Considerations: Focus on usability—provide visual toggles or sliders to make managing shards simple. Supporting hierarchical context relationships could enable advanced workflows.
 
 1. Humors
-
 - Strengths: Emotional modeling sets ContextCore apart from generic AI systems, allowing for richer, more personalized outputs.
 - Considerations: Predefined emotional states (like “Neutral,” “Supportive,” “Optimistic”) are helpful for most users, but also allow custom emotional profiles to cater to niche use cases like therapy or role-playing.
 
 9. Mimics
-
 - Strengths: Persona modeling is a standout feature for applications like simulation, coaching, and character design. It could also enhance professional scenarios, e.g., mimicking writing styles for marketing content.
 - Considerations: Focus on templates and learning mechanisms to make Mimics easy to set up and refine over time. Versioning features could help users manage iterative persona updates.
 
-11. Prisms (Focus)
-
+1. Prisms (Focus)
 - Strengths: Combining settings into profiles creates a structured and predictable way to optimize AI behavior for specific tasks (e.g., work vs. creative brainstorming).
 - Considerations: Allow users to define triggers (e.g., time of day, calendar events) to activate profiles automatically. This will increase adoption by simplifying workflow integration.
 
