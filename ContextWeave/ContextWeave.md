@@ -35,6 +35,7 @@ Core Features:
 
 %% Begin Waypoint %%
 - [[Claude Research]]
+- **[[Engine]]**
 - [[Overall Plan]]
 - **[[Proof of Concept]]**
 
