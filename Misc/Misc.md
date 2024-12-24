@@ -3,6 +3,7 @@
 - [[Motivation]]
 - [[Obsidian Notes]]
 - [[Planning Phase]]
+- **Untitled**
 
 %% End Waypoint %%
 
