@@ -172,6 +172,7 @@ Your use of RAG in this project is not only appropriate but also a textbook exam
 **
 
 %% Begin Waypoint %%
+- [[Ranking Context]]
 - [[Semantic-based Retrieval]]
 
 %% End Waypoint %%

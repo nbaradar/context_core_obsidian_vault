@@ -2,6 +2,8 @@ This is where I put all my research concerning the viability of ContextCore as a
 
 %% Begin Waypoint %%
 - **[[LLM Use Case Research]]**
+- [[Token Size Optimization]]
 - [[VS LangChain]]
+- [[VS LLaMaIndex]]
 
 %% End Waypoint %%
