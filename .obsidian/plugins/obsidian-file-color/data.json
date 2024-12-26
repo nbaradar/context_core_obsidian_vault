@@ -1,5 +1,5 @@
 {
-  "cascadeColors": true,
+  "cascadeColors": false,
   "colorBackground": true,
   "palette": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "id": "cO5cW4BDAjSrsOMWsfHBe",
-      "name": "",
+      "name": "Gray (Technical Components)",
       "value": "#a3a3a3"
     }
   ],
