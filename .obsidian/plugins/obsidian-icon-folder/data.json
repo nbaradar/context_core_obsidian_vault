@@ -6,8 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiBookOpenText",
-      "LiLock"
+      "LiAppWindow",
+      "LiAperture",
+      "LiMessageCircleQuestion",
+      "🗺",
+      "LiMap"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -31,6 +34,28 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "Security": "LiLock",
-  "Research": "LiBookOpenText"
+  "Security": {
+    "iconName": "LiLock",
+    "iconColor": "#ff2929"
+  },
+  "Research": {
+    "iconName": "LiBookOpenText",
+    "iconColor": "#4fba56"
+  },
+  "Features": {
+    "iconName": "LiAtom",
+    "iconColor": "#ffbe4d"
+  },
+  "Misc": {
+    "iconName": "LiMessageCircleQuestion",
+    "iconColor": "#c145e3"
+  },
+  "Overview": {
+    "iconName": "LiMap",
+    "iconColor": "#4f63c4"
+  },
+  "SubSystems": {
+    "iconName": "LiAppWindow",
+    "iconColor": "#ffffff"
+  }
 }

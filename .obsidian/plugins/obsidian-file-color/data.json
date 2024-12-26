@@ -1,6 +1,71 @@
 {
-  "cascadeColors": false,
-  "colorBackground": false,
-  "palette": [],
-  "fileColors": []
+  "cascadeColors": true,
+  "colorBackground": true,
+  "palette": [
+    {
+      "id": "4GIgovscX5kjZuW-h2h05",
+      "name": "Light Blue (Clarity, Overview)",
+      "value": "#6f8eeb"
+    },
+    {
+      "id": "zA1K8ozxz7uGyKO-AdsUr",
+      "name": "Red (Danger, Security)",
+      "value": "#ff5252"
+    },
+    {
+      "id": "oJPe_20LLNkGswRcVeWQ-",
+      "name": "Orange (Creativity, Features)",
+      "value": "#fe9706"
+    },
+    {
+      "id": "cveLMhRnOASkBt5UWY_cM",
+      "name": "Green (Growth, Research)",
+      "value": "#52b759"
+    },
+    {
+      "id": "aSqjOohy9rVK0l-Zjg2nV",
+      "name": "Purple (Misc)",
+      "value": "#b255dd"
+    },
+    {
+      "id": "uoPs5S10aWCb5Dkl5asTS",
+      "name": "Pink",
+      "value": "#f9c4fd"
+    },
+    {
+      "id": "cO5cW4BDAjSrsOMWsfHBe",
+      "name": "",
+      "value": "#a3a3a3"
+    }
+  ],
+  "fileColors": [
+    {
+      "path": "Security",
+      "color": "zA1K8ozxz7uGyKO-AdsUr"
+    },
+    {
+      "path": "Research",
+      "color": "cveLMhRnOASkBt5UWY_cM"
+    },
+    {
+      "path": "Overview",
+      "color": "4GIgovscX5kjZuW-h2h05"
+    },
+    {
+      "path": "Misc",
+      "color": "aSqjOohy9rVK0l-Zjg2nV"
+    },
+    {
+      "path": "Features",
+      "color": "oJPe_20LLNkGswRcVeWQ-"
+    },
+    {
+      "path": "SubSystems",
+      "color": "cO5cW4BDAjSrsOMWsfHBe"
+    },
+    {
+      "path": "SubSystems/Multiquery",
+      "color": "uoPs5S10aWCb5Dkl5asTS"
+    }
+  ]
 }

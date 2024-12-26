@@ -91,3 +91,9 @@ The best approach depends on your long-term vision:
 3. **Separate Products**: If the workflows diverge completely, separate them, but only if it’s absolutely necessary.
 
 Would you like help outlining the architecture for integrating chat-based context injection into ContextCore, or designing it as a separate module/product?
+
+%% Begin Waypoint %%
+- [[Saving context from chats with GPTs]]
+- [[Transfer Chats]]
+
+%% End Waypoint %%
