@@ -1,6 +1,6 @@
 {
   "cascadeColors": false,
-  "colorBackground": true,
+  "colorBackground": false,
   "palette": [
     {
       "id": "4GIgovscX5kjZuW-h2h05",
@@ -36,6 +36,21 @@
       "id": "cO5cW4BDAjSrsOMWsfHBe",
       "name": "Gray (Technical Components)",
       "value": "#a3a3a3"
+    },
+    {
+      "id": "MDSN70zmYi6u6tq6lq81N",
+      "name": "",
+      "value": "#f99a9a"
+    },
+    {
+      "id": "2j8S__B9Umn6iNwmy-siG",
+      "name": "",
+      "value": "#ffffff"
+    },
+    {
+      "id": "WNLIDgI6rj0GFj9faD_Ce",
+      "name": "",
+      "value": "#570a0a"
     }
   ],
   "fileColors": [
@@ -60,8 +75,12 @@
       "color": "oJPe_20LLNkGswRcVeWQ-"
     },
     {
+      "path": "Secrets.md",
+      "color": "WNLIDgI6rj0GFj9faD_Ce"
+    },
+    {
       "path": "SubSystems",
-      "color": "cO5cW4BDAjSrsOMWsfHBe"
+      "color": "2j8S__B9Umn6iNwmy-siG"
     }
   ]
 }

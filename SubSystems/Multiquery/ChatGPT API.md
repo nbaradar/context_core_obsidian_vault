@@ -28,3 +28,11 @@ Here is a [list of all parameters](https://github.com/openai/openai-python/blob/
 You should set `model` to `gpt-4o-mini` as it's currently the cheapest model: 
 https://openai.com/api/pricing/
 
+---
+### Tokens
+You can think of tokens as pieces of words used for natural language processing. For English text, 1 token is approximately 4 characters or 0.75 words. As a point of reference, the collected works of Shakespeare are about 900,000 words or 1.2M tokens.
+
+To learn more about how tokens work and estimate your usage…
+- Experiment with our interactive [Tokenizer tool⁠(opens in a new window)](https://beta.openai.com/tokenizer).
+- Log in to your account and enter text into the Playground. The counter in the footer will display how many tokens are in your text.
+

@@ -5,5 +5,6 @@ https://github.com/nbaradar/multiquery
 %% Begin Waypoint %%
 - [[ChatGPT API]]
 - [[Dev Notes]]
+- [[Grok API]]
 
 %% End Waypoint %%

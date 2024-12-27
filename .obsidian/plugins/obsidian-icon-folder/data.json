@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlertTriangle",
       "LiAppWindow",
       "LiAperture",
       "LiMessageCircleQuestion",
-      "🗺",
-      "LiMap"
+      "🗺"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -57,5 +57,9 @@
   "SubSystems": {
     "iconName": "LiAppWindow",
     "iconColor": "#ffffff"
+  },
+  "Secrets.md": {
+    "iconName": "LiAlertTriangle",
+    "iconColor": "#fff700"
   }
 }
