@@ -3,6 +3,7 @@ https://github.com/nbaradar/multiquery
 
 
 %% Begin Waypoint %%
+- [[ChatGPT API]]
 - [[Dev Notes]]
 
 %% End Waypoint %%

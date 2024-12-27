@@ -11,5 +11,3 @@ Open powershell as admin, run this command:
 `wsl --install`
 ###### Install VSCode Remote
 This is a WSL extension.  Launch VSCode, go to Extensions view (Ctrl+Shift+X) and get the [WSL Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
-
-###### Open VS Code in WSL
