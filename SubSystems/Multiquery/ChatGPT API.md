@@ -36,3 +36,4 @@ To learn more about how tokens work and estimate your usage…
 - Experiment with our interactive [Tokenizer tool⁠(opens in a new window)](https://beta.openai.com/tokenizer).
 - Log in to your account and enter text into the Playground. The counter in the footer will display how many tokens are in your text.
 
+#chatgpt #development #research #multiquery 

@@ -4,7 +4,10 @@ https://github.com/nbaradar/multiquery
 
 %% Begin Waypoint %%
 - [[ChatGPT API]]
+- [[Concurrency]]
 - [[Dev Notes]]
 - [[Grok API]]
 
 %% End Waypoint %%
+
+#multiquery
