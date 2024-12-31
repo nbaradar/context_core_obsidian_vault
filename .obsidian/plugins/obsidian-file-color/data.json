@@ -51,6 +51,11 @@
       "id": "WNLIDgI6rj0GFj9faD_Ce",
       "name": "",
       "value": "#570a0a"
+    },
+    {
+      "id": "63MAV6_yFxEYs_8LmjTS5",
+      "name": "",
+      "value": "#ff4d00"
     }
   ],
   "fileColors": [
@@ -76,7 +81,7 @@
     },
     {
       "path": "Secrets.md",
-      "color": "WNLIDgI6rj0GFj9faD_Ce"
+      "color": "63MAV6_yFxEYs_8LmjTS5"
     },
     {
       "path": "SubSystems",

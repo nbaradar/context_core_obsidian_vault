@@ -1,4 +1,4 @@
-# ContextCore: A Personalized Context Management System
+ # ContextCore: A Personalized Context Management System
 
 ContextCore is a state-of-the-art platform engineered to facilitate the storage and management of personalized context data, enhancing interaction quality with AI systems. As a secure and customizable personal knowledge repository, it prioritizes data privacy, modular architecture, and compatibility with both cloud-based and on-premises AI frameworks. ContextCore empowers users to construct and refine data libraries, thereby enabling AI to deliver highly personalized and contextually aware responses.
 ## Key Objectives
