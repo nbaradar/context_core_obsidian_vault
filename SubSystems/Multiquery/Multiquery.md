@@ -16,6 +16,7 @@ https://github.com/nbaradar/multiquery
 - [[Dev Notes]]
 - [[Export]]
 - [[Grok API]]
+- [[Simple Web UI]]
 
 %% End Waypoint %%
 

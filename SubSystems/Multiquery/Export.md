@@ -4,4 +4,7 @@ Steps to implement
 2. create JSON export utility function
 3. integrate export into `main_async()`
 
+Export functionality has been added. Here is the structure for now: 
+
+
 #json #python #multiquery #research #development
