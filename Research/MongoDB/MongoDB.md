@@ -44,3 +44,5 @@ The default connection string should be `mongodb://localhost:27017`
 - [[Mongosh Commands]]
 
 %% End Waypoint %%
+
+#research #development #mongodb 
