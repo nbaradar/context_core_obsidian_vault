@@ -5,7 +5,7 @@
 - [[MCP (Model Context Protocol)]]
 - **[[Meta-Prompting]]**
 - **[[MongoDB]]**
+- [[Online Research]]
 - **[[RAG (Retrieval Augmented Generation)]]**
-- [[Reddit Research]]
 
 %% End Waypoint %%

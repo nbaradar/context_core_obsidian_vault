@@ -16,3 +16,6 @@ I'm going to compile notable research from Reddit here. I will probably expand t
 
 https://www.anthropic.com/news/model-context-protocol
 https://www.reddit.com/r/ClaudeAI/s/KJaoVkMzdJ
+
+## Medium 
+https://medium.com/@mehulpratapsingh/the-most-efficient-rag-method-till-now-contextual-retrieval-fd8873c60c5a
