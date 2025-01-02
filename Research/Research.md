@@ -3,9 +3,9 @@
 - **[[Initial Research]]**
 - **[[Market Research]]**
 - [[MCP (Model Context Protocol)]]
-- **[[Meta-Prompting]]**
 - **[[MongoDB]]**
 - [[Online Research]]
+- **[[Prompt Engineering]]**
 - **[[RAG (Retrieval Augmented Generation)]]**
 
 %% End Waypoint %%
