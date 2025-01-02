@@ -1,8 +1,7 @@
 Meta-prompting is an advanced technique in prompt engineering where prompts are used to generate, modify, or interpret other prompts. This approach involves creating high-level prompts that guide the AI in understanding or creating more specific prompts for various tasks.
 
+### Example of Meta-prompting
 ```
-## Example of Meta-prompting
-
 Meta-Prompt: "Generate a prompt that will guide an AI to analyze [specific topic]. The prompt should include instructions for:
 
 1. Summarizing key points
