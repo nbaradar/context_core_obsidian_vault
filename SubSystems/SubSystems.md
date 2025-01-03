@@ -1,11 +1,10 @@
 %% Begin Waypoint %%
 - **[[Akasha]]**
-- **[[Arcanum]]**
-- **ChatContextManager**
-	- [[ContextInjector]]
-	- [[Saving context from chats with GPTs]]
-	- [[Transfer Chats]]
+- **[[ContextStore DB]]**
+- **[[ContextWeave]]**
+- **[[ConversationCore]]**
 - **[[Multiquery]]**
 - **[[PromptEngine]]**
 
 %% End Waypoint %%
+

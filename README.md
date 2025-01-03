@@ -9,7 +9,7 @@ A system (leveraging RAG for now) that is essentially a "context" database that 
 ## Components
 #### [[Overview|ContextCore]] 
 Name of the company/organization. We are going to create an open source framework called ContextWeave, and a premium product called Akasha.
-#### [[Arcanum]] 
+#### [[ContextWeave]] 
 This open source framework allows you to maintain and manage a context store of information that can be categorized and used via RAG to make a query to any LLM you plug it into (as long as that LLM has APIs for you to call it). It will also allow you to import/export your context store. The final step would be to expand the import functionality to translate imported contexts from other llm providers like chatgpt.
 #### [[Akasha]]
 Premium product that leverages ContextWeave and implements additional features. The premium product will be called something like Mentis, Cognis, Akasha, etc.
