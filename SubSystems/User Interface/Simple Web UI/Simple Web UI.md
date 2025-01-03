@@ -104,6 +104,7 @@ multiquery/
 
 %% Begin Waypoint %%
 - [[Backend - FastAPI]]
+- [[Debugging with uvicorn]]
 - [[React]]
 
 %% End Waypoint %%

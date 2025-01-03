@@ -17,7 +17,6 @@ https://github.com/nbaradar/multiquery
 - [[Export]]
 - [[Grok API]]
 - [[Integrating MongoDB]]
-- **[[Simple Web UI]]**
 
 %% End Waypoint %%
 
