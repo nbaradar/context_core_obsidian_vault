@@ -7,15 +7,16 @@ I'm going to compile notable research from Reddit here. I will probably expand t
 
 ---
 ##### List of helpful subreddits
-- 
 
----
-##### Useful posts: 
+##### List of useful/interesting posts
+[Frustrated with GPT guardrails](https://www.reddit.com/r/ChatGPTJailbreak/comments/1hqqar6/frustrated_with_gpt_guardrails_do_you_stick_with/)
+[MCP-Framework](https://www.reddit.com/r/ClaudeAI/s/KJaoVkMzdJ)
 [Extracted CoPilot System Prompt](https://www.reddit.com/r/github/comments/1hkq9kg/i_extracted_the_github_copilot_system_prompt/)
 
 
-https://www.anthropic.com/news/model-context-protocol
-https://www.reddit.com/r/ClaudeAI/s/KJaoVkMzdJ
+---
+##### Useful posts: 
+[Anthropic - Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
 
 ## Medium 
-https://medium.com/@mehulpratapsingh/the-most-efficient-rag-method-till-now-contextual-retrieval-fd8873c60c5a
+[The most efficient RAG method till now](https://medium.com/@mehulpratapsingh/the-most-efficient-rag-method-till-now-contextual-retrieval-fd8873c60c5a)
