@@ -23,3 +23,9 @@
 > [!example]
 
 > [!quote] Quote, Cite
+
+# Tasks
+https://publish.obsidian.md/tasks/Introduction
+obsidian://show-plugin?id=obsidian-tasks-plugin
+https://ryan.himmelwright.net/post/started-using-obsidian-tasks-plugin/
+

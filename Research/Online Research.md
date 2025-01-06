@@ -1,4 +1,4 @@
-## Reddit Research
+# Reddit Research
 I'm going to compile notable research from Reddit here. I will probably expand to Organize by SubReddit later.
 
 >[!note] ContextCore Reddit Account
@@ -15,8 +15,9 @@ I'm going to compile notable research from Reddit here. I will probably expand t
 
 
 ---
-##### Useful posts: 
+# Other Online Research
 [Anthropic - Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
+[DAIR - Democratize AI](https://github.com/dair-ai)
 
-## Medium 
+### Medium 
 [The most efficient RAG method till now](https://medium.com/@mehulpratapsingh/the-most-efficient-rag-method-till-now-contextual-retrieval-fd8873c60c5a)
