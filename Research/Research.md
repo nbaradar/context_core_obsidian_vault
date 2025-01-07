@@ -2,6 +2,7 @@
 - **[[Development Research]]**
 - **[[Framework Research]]**
 - **[[Initial Research]]**
+- **[[LLM Use Case Research]]**
 - **[[Market Research]]**
 - [[MCP (Model Context Protocol)]]
 - **[[MongoDB]]**

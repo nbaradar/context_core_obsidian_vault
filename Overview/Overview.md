@@ -305,6 +305,9 @@ Sources:
 - [[Logo & Branding]]
 - [[Name]]
 - [[Roadmaps]]
+- **Use Cases**
+	- [[Fitness Coaches]]
+	- [[News Article Writers]]
 - [[Viability]]
 - [[Vision]]
 

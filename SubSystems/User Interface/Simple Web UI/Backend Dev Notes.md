@@ -150,9 +150,13 @@ Specifically, the `config.py` file which defines all mapping config objects
 >2. The `ProviderFactory` is instantiated with `AppConfig` to create providers.
 >3. Providers are injected into endpoints or services as needed.
 
-Couple of updates need to be made:
+Couple of improvements need to be made to the current implementation:
 1. **~={cyan}Dependency Injection=~**: Inject pre-configured `ProviderFactory` objects instead of instantiating them in endpoints.
 2. **~={cyan}Factory Pattern=~:** Use a fully centralized `ProviderFactory` class instead of partially implemented dynamic instantiation.
+### ~={red}**TODO**:=~ Going to refactor the rest of this later. For now, moving on. 
+
+# Ability to select LLM Provider
+Accept a `providers` query parameter (e.g., `?providers=chatgpt,grok`) to filter which LLM providers are used.
 
 
 

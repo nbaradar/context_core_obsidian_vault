@@ -18,7 +18,7 @@ Test
 
 %% Begin Waypoint %%
 - [[ChatGPT]]
-- [[Gemini]]
+- [[Research/LLM Use Case Research/Gemini]]
 - [[GROK]]
 - [[LLaMa]]
 
