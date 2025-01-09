@@ -1,3 +1,23 @@
+
+# Tasks
+- [ ] DB Integrations ➕ 2025-01-07 
+	- [x] MongoDB Client ✅ 2025-01-07
+	- [ ] MongoDB CRUD Operations
+		- [x] save_query_result ✅ 2025-01-07
+		- [ ] read_result
+			- [ ] based on dates
+			- [ ] based on id
+			- [ ] based on user
+			- [ ] based on chatID
+		- [ ] delete_result
+		- [ ] update_result
+	- [x] MongoDB Config Injections ✅ 2025-01-07
+- [ ] Create DB Schema
+- [ ] Create Frontend
+
+
+---
+# Plan
 We're going to start building a simple Web UI using the POC engine. It's very easy to convert the CLI into a webapp. Just make each function an endpoint that you call. 
 
 Stack:
@@ -103,8 +123,10 @@ multiquery/
 #multiquery #multiquery #research #development 
 
 %% Begin Waypoint %%
-- [[Backend Dev Notes]]
+- [[Backend Config Notes]]
 - [[Debugging with uvicorn]]
+- [[Initial Front End]]
+- [[MongoDB connection]]
 - [[React]]
 
 %% End Waypoint %%

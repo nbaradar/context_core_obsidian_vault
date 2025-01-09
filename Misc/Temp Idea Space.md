@@ -1,4 +1,10 @@
- # **Misc Ideas**
+# **Misc Ideas**
+
+## Jan 7
+- agent that assists in contextcore. Maybe could assist in integrations subsystem. 
+- 
+
+## Init
 - Can you **use LLM to create categories on the data**? 
 - Can you **use LLM to tokenize the data with enough granularity**?
 - Could **add integrations** at some point to auto-populate your context DB
