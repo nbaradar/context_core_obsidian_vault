@@ -1,9 +1,12 @@
 # **Misc Ideas**
 
+## Jan 11
+- Should have some kind of adult filter system. So for instance, you can make a children account and then either prevent them from using certain contexts (personal information), you can control which AI models they can use, you can view/manage their chat/prompt history, etc. 
+- Would also be a good marketing point. You can keep your kids safe and their data safe from companies. 
 ## Jan 7
-- agent that assists in contextcore. Maybe could assist in integrations subsystem. 
-- 
-
+- Agent that assists in ContextCore. Maybe could assist in integrations subsystem. 
+- This agent could pay attention to updated data in different integration spots, create multi-prompt questions for more intensive tasks, recommend Humors/Mimics/Prisms, be a guide for Prompt Engineering/ContextCore in general (It should know all ContextCore documentation). 
+- Can you make this agent the default prism that comes with the suite to show people the power of ContextCore Akasha? 
 ## Init
 - Can you **use LLM to create categories on the data**? 
 - Can you **use LLM to tokenize the data with enough granularity**?

@@ -123,10 +123,13 @@ multiquery/
 #multiquery #multiquery #research #development 
 
 %% Begin Waypoint %%
+- [[Axios]]
 - [[Backend Config Notes]]
 - [[Debugging with uvicorn]]
-- [[Initial Front End]]
+- [[Frontend Dev Notes]]
+- [[Initial Front End Plan]]
 - [[MongoDB connection]]
 - [[React]]
+- [[Tailwind CSS]]
 
 %% End Waypoint %%
