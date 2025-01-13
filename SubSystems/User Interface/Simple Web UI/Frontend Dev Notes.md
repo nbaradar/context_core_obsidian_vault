@@ -109,6 +109,21 @@ This means youll have
 	- contains configs for each chat (llm provider configs for instance)
 - `result` object
 
+##### **[[MongoDB connection#MongoDB Schema Design|Refined Schema Design for This Data]]** that was made using ChatGPT
+
+#### FrontEnd DaisyUI Tasks
+- [ ] You'll want to use https://daisyui.com/components/badge/ for the LLM labels on QueryDisplay
+- [ ] You can use https://daisyui.com/components/avatar/ for a UI profile button
+- [ ] Maybe you can make ResultWindow a carousel https://daisyui.com/components/carousel/
+- [ ] Loading can be used when fetching results: https://daisyui.com/components/loading/
+	- [ ] Or you can use load progress https://daisyui.com/components/progress/
+- [ ] You can update the checkbox https://daisyui.com/components/checkbox/
+	- [ ] https://daisyui.com/components/toggle/ using toggles might look cooler
+- [ ] You can use range to set the model temps https://daisyui.com/components/range/
+- [ ] Should use textarea for inputsection https://daisyui.com/components/textarea/
+- [ ] Use dividers between your ResultCards https://daisyui.com/components/divider/
+
+
 ---
 
 #react #python #frontend #ui #research #development #restapi #rest #axios #css #style #tailwindcss #tailwind #daisyui #jsx

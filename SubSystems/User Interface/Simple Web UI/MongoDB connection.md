@@ -8,6 +8,28 @@ The best way to interact with a MongoDB database in a **FastAPI** application is
 > 	- For the `/query` endpoint, it makes sense to log the result to the database **within the same request lifecycle**, especially if this is an essential feature of the endpoint (e.g., saving query history).
 > 	- However, more complex database operations (e.g., retrieving a history of queries) should be handled by separate endpoints.
 
+# MongoDB Schema Design
+This schema will support the [[Frontend Dev Notes#** MongoDB connection MongoDB Schema Design Refined Schema Design for This Data ** that was made using ChatGPT|plans for the front end]]
+##### User Document
 
+##### Chat Message Document
+
+##### Chat Window Document
+##### Chat Configs
+Manage config details for a specific chat session (eg, LLM settings)
+- **Design**: Embed these configurations directly in the `chat_window` document.
+##### Results
+Stores details about LLM responses and metadata
+- **Design**: Embed result data in the `chat_message` document, as it is tightly coupled with each message.
+
+```json
+
+```
+
+**users** stores user data, preferences, and linked chats
+**chat_messages** stores individual messages and their associated results
+**chat_windows** stores high-level chat session info
+
+---
 
 #motor #mongodb #backend #development #research #webapp #fastapi #python 
