@@ -15,6 +15,7 @@
 - [https://notebooklm.google/](https://notebooklm.google/) - based on Gemini 1.5, research assistant for creative pursuits 
 - [https://www.langchain.com/](https://www.langchain.com/) - framework to build applications based on large language models. Great for Natural Language Processing
 - [https://www.cursor.com/](https://www.cursor.com/) - best IDE for AI enabled programming 
+- [https://www.codium.ai/](https://www.codium.ai/) - Another IDE for AI enabled programming
 - [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui) - Self hosted, offline, webUI AI interface that supports multiple models
 
 ## Different AI Services:

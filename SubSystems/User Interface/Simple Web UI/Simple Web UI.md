@@ -14,6 +14,12 @@
 	- [x] MongoDB Config Injections ✅ 2025-01-07
 - [ ] Create DB Schema
 - [ ] Create Frontend
+	- [ ] Initial MVP
+		- [ ] Create Chat area with text
+			- [ ] `ChatHistory.jsx` : ~={red}TODO=~ For simple lists, using the array index to grab chat messages from `chatHistory` is fine, though unique IDs are better for more complex apps.
+		- [x] Create Text area ✅ 2025-01-12
+		- [x] Create button to submit ✅ 2025-01-12
+		- [ ] Create dropdown for LLM selection
 
 
 ---
@@ -129,6 +135,7 @@ multiquery/
 - [[Frontend Dev Notes]]
 - [[Initial Front End Plan]]
 - [[MongoDB connection]]
+- [[NPM Hints]]
 - [[React]]
 - [[Tailwind CSS]]
 

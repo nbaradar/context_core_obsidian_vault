@@ -38,12 +38,10 @@ npm install axios react-select
 > NPM = Install and run package
 > NPX = Run the package but don't install it
 > 
->One installs a package/dependency for your project, saves it under node_modules and also in the package.json, example: npm i express
->
+> One installs a package/dependency for your project, saves it under node_modules and also in the package.json, example: npm i express
 > The other one "executes" the package, only for that run, and doesn't save anything anywhere, for example: npx create-react-app
-
 ##### IMPORTANT: VULNERABILITIES
-You still need to address these 6 vulnerabilities at a later date: 
+~={red}**TODO**=~ You still need to address these 6 vulnerabilities at a later date: 
 ```
 * **nth-check < 2.0.1 (high severity):** This vulnerability is related to inefficient regular expression complexity in `nth-check`. 
 * **css-select <= 3.1.0 (depends on vulnerable nth-check):** This vulnerability is inherited from the dependency `nth-check`. 
@@ -61,9 +59,56 @@ Going to go with these techs
 - **shadcn/ui**: A source of customizable, unstyled components that you can style with Tailwind. These will form the core of your application’s custom design system.
 - **DaisyUI**: A helper library for prototyping with pre-styled components, speeding up the development process for less critical UI elements.
 
-Installing dependencies...
+For now I'm just going to use DaisyUI to create a text output area and a text input area with a dropdown to select LLMs 
+I will potentially switch to shadcn later when I understand react better.
 
+```bash 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+npm install daisyui
+```
+
+>[!attention] VSCode Compatibility
+>Get Tailwind VSCode Extension: [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+>Add tailwind to CSS file associations in the VSCode `settings.json` file (`command+shift+p: open user settings(JSON)`)
+>```JSON
+>"files.associations": {
+>	"*.css": "tailwindcss"
+>	}
+>```
+
+Comments in JSX:
+```jsx
+{/* This is a single-line comment in JSX */}
+{/* This is a 
+   multi-line comment in JSX */}
+```
+
+Created 3 Component. Comments can be found in files themselves
+- App.jsx
+- ChatHistory.jsx
+- ChatInput.jsx
+
+You'll need to create message objects in store them in the mongodb history. Right now, queries are being saved in a db called "result"
+Think about how you want to approach saving chats. It should probably be per user
+This means youll have
+- `user` object
+	- info about the user
+	- contains `user_preference` object
+	- contains chat 
+- `user_preference` object
+	- configs and preferences tied to `user` (api keys for instance)
+- `chat_message` object
+	- contains a `result` object tied to a `user` object
+	- contains a `chat_id`
+- `chat_window` object
+	- contains `chat_window_id`
+	- contains list of chat_message objects tied by `chat_id`
+- `chat_configs` object
+	- maps to `chat_id`
+	- contains configs for each chat (llm provider configs for instance)
+- `result` object
 
 ---
 
-#react #python #frontend #ui #research #development #restapi #rest #axios #css #style 
+#react #python #frontend #ui #research #development #restapi #rest #axios #css #style #tailwindcss #tailwind #daisyui #jsx
