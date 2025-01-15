@@ -169,6 +169,7 @@ This updated structure ensures that **ContextCore** is modular, scalable, and us
 - **[[ContextStore DB]]**
 - **[[ContextWeave]]**
 - **[[ConversationCore]]**
+- **[[Integrations]]**
 - **[[Multiquery]]**
 - **[[PromptEngine]]**
 - **User Interface**

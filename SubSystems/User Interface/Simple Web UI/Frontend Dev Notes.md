@@ -112,6 +112,7 @@ This means youll have
 ##### **[[MongoDB connection#MongoDB Schema Design|Refined Schema Design for This Data]]** that was made using ChatGPT
 
 #### FrontEnd DaisyUI Tasks
+- [ ] Theme controller is used to change page theme https://v5.daisyui.com/components/theme-controller/
 - [ ] You'll want to use https://daisyui.com/components/badge/ for the LLM labels on QueryDisplay
 - [ ] You can use https://daisyui.com/components/avatar/ for a UI profile button
 - [ ] Maybe you can make ResultWindow a carousel https://daisyui.com/components/carousel/
@@ -122,6 +123,20 @@ This means youll have
 - [ ] You can use range to set the model temps https://daisyui.com/components/range/
 - [ ] Should use textarea for inputsection https://daisyui.com/components/textarea/
 - [ ] Use dividers between your ResultCards https://daisyui.com/components/divider/
+
+# Connect FrontEnd to BackEnd
+Now that you have these components created:
+- **QueryDisplay**: Displays user query and llm_provider tags at top
+- **ResultWindow**: Displays all llm results as individual components
+	- **ResultCard**: Displays result for a single llm provider
+- **InputSection**: Area where user inputs query. Includes section to choose LLM providers
+- **ChatList**: Panel on left that shows the users chats
+
+You'll need to connect them to the backend. 
+Currently, when InputSection fires, /query will be called. 
+The result will be returned from `const handleSendQuery = (newQuery) => {` which gets called when the submit button is pressed. 
+So then, you'll want to initialize the resultWindow with resultcards created from the /query results
+
 
 
 ---

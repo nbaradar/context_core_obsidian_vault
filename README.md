@@ -14,7 +14,7 @@ This open source framework allows you to maintain and manage a context store of 
 #### [[Akasha]]
 Premium product that leverages ContextWeave and implements additional features. The premium product will be called something like Mentis, Cognis, Akasha, etc.
 ## Core Pro Features
-#### [[Integrations]]
+#### [[Features/Integrations]]
 Allow you to seamlessly integrate different sources of data to ContextCore for automatic ingestion/categorization  
 #### [[Humors]]
 Think of these as emotional states / moods. They should map to Adjectives

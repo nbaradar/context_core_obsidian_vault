@@ -266,7 +266,7 @@ If you prioritize Elements, Integrations, and Import/Export for the MVP, you’l
 - **[[Elements]]**
 - [[Humors]]
 - [[Import+Export]]
-- [[Integrations]]
+- [[Features/Integrations]]
 - [[Mimics]]
 - [[Onboarding]]
 - **[[Prisms]]**

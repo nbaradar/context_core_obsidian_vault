@@ -1,3 +1,9 @@
+>[!info]- Misc Links:
+> - [The Technist Reformation: A Discussion with o1 About The Coming Economic Event Horizon](https://www.lesswrong.com/posts/6x9aKkjfoztcNYchs/the-technist-reformation-a-discussion-with-o1-about-the)
+> - [2025 and the future of local AI](https://www.reddit.com/r/LocalLLaMA/comments/1i1eyl5/2025_and_the_future_of_local_ai/)
+> - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+> - [Jetson Orin Dev Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
+> 	- [Example: Visual Car Detection](https://www.youtube.com/watch?v=QHBr8hekCzg)
 ## Leaderboards for LLM Models:
 - [BigCodeBench](https://bigcode-bench.github.io/)
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
@@ -17,6 +23,9 @@
 - [https://www.cursor.com/](https://www.cursor.com/) - best IDE for AI enabled programming 
 - [https://www.codium.ai/](https://www.codium.ai/) - Another IDE for AI enabled programming
 - [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui) - Self hosted, offline, webUI AI interface that supports multiple models
+	- https://docs.openwebui.com/roadmap/ - Roadmap for OpenWebUI. You could potentially get ideas from them
+- https://github.com/cyberark/FuzzyAI - AI Fuzzer that is designed to break an LLM model
+- https://github.com/open-webui/pipelines?tab=readme-ov-file - Welcome to **Pipelines**, an [Open WebUI](https://github.com/open-webui) initiative. Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs
 
 ## Different AI Services:
 - [Perplexity](https://www.perplexity.ai/) - More up-to-date information and summaries, best for learning
