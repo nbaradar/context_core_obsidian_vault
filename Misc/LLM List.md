@@ -3,7 +3,8 @@
 > - [2025 and the future of local AI](https://www.reddit.com/r/LocalLLaMA/comments/1i1eyl5/2025_and_the_future_of_local_ai/)
 > - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 > - [Jetson Orin Dev Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
-> 	- [Example: Visual Car Detection](https://www.youtube.com/watch?v=QHBr8hekCzg)
+> - [Example: Visual Car Detection](https://www.youtube.com/watch?v=QHBr8hekCzg)
+> - [Titan AGI architecture](https://arxiv.org/abs/2501.00663)
 ## Leaderboards for LLM Models:
 - [BigCodeBench](https://bigcode-bench.github.io/)
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
