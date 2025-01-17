@@ -13,6 +13,7 @@ https://github.com/nbaradar/multiquery
 %% Begin Waypoint %%
 - [[ChatGPT API]]
 - [[Concurrency]]
+- [[CORS To run Frontend+Backend]]
 - [[Dev Notes]]
 - [[Export]]
 - [[Grok API]]

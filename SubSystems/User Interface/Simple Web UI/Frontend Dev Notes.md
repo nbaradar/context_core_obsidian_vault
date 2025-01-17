@@ -137,6 +137,11 @@ Currently, when InputSection fires, /query will be called.
 The result will be returned from `const handleSendQuery = (newQuery) => {` which gets called when the submit button is pressed. 
 So then, you'll want to initialize the resultWindow with resultcards created from the /query results
 
+>[!error] CORS Needed
+> Realized that you will need CORS to run backend/frontend together. 
+> Refer here: [[CORS To run Frontend+Backend]]
+
+
 
 
 ---
