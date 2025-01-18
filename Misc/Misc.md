@@ -1,6 +1,6 @@
 %% Begin Waypoint %%
 - [[ChatGPT Limits]]
-- [[LLM List]]
+- [[Cool Links and LLMs]]
 - [[Motivation]]
 - [[Obsidian Notes]]
 - [[Planning Phase]]

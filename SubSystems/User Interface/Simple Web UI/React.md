@@ -2,6 +2,33 @@
 >- **Functional Components** are the preferred modern approach (use 'function' keyword)
 >- For **single-page applications (SPAs)**, you’ll likely use **React Router** for navigation
 >- To **share state between components**, you often **"lift state up"** to a common parent.
+>- React updates the DOM when **state** or **props** change. Each component can have it's own state
+### **Common React Event Handlers**
+React supports a variety of event handlers beyond `onChange`. These are the most common:
+
+| **Event Handler** | **Purpose**                                                                        |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| `onClick`         | Fired when an element (e.g., button, div) is clicked.                              |
+| `onChange`        | Fired when the value of an input, textarea, or select changes.                     |
+| `onSubmit`        | Fired when a form is submitted.                                                    |
+| `onInput`         | Similar to `onChange`, triggered as the user types (useful for immediate updates). |
+| `onFocus`         | Fired when an element gains focus.                                                 |
+| `onBlur`          | Fired when an element loses focus.                                                 |
+| `onKeyPress`      | Fired when a key is pressed (deprecated, use `onKeyDown` or `onKeyUp`).            |
+| `onKeyDown`       | Fired when a key is pressed down.                                                  |
+| `onKeyUp`         | Fired when a key is released.                                                      |
+| `onMouseEnter`    | Fired when the mouse pointer enters an element.                                    |
+| `onMouseLeave`    | Fired when the mouse pointer leaves an element.                                    |
+
+### **Key Concepts to Understand**
+1. **Props vs State**:
+    - `Props`: Data passed from a parent to a child component. Immutable in the child.
+    - `State`: Data that a component manages internally. Changes to state trigger re-renders.
+2. **Reactivity**:
+    - React tracks which components depend on state/props and re-renders them when those values change.
+3. **Unidirectional Data Flow**:
+    - Data flows from parent to child via props.
+    - Child components notify parents of changes (e.g., toggling a provider) via callback functions passed as props.
 
 ---
 ## **What is React?**
@@ -11,6 +38,41 @@
 - React is component-based and uses a **virtual DOM** to efficiently update the UI.
 
 ---
+## **How Does React Work?**
+At its core, React is a **declarative UI library**. Instead of manually manipulating the DOM, you declare what the UI should look like based on the **current state** and **props** (data passed to components). React takes care of updating the DOM when the state or props change.
+
+### **Understanding State in React**
+1. **State**:
+    - State is a special data structure that React uses to track values that change over time (like your `query` variable).
+    - Each component can have its own state, and when the state changes, React automatically re-renders the component.
+2. **Example: State in React**:
+```jsx
+import React, { useState } from "react";
+
+function App() {
+  const [query, setQuery] = useState(""); // Declare state with initial value ""
+
+  const handleChange = (e) => {
+    setQuery(e.target.value); // Update state when user types
+  };
+
+  return (
+    <div>
+      <h1>{query}</h1> {/* React dynamically updates this whenever query changes */}
+      <input type="text" value={query} onChange={handleChange} />
+    </div>
+  );
+}
+
+export default App;
+
+```
+
+**What happens when the user types in the input field?**
+    - The `onChange` event is triggered.
+    - `setQuery(e.target.value)` updates the `query` state.
+    - React detects that the state (`query`) has changed and automatically re-renders the component, updating the `<h1>{query}</h1>` element in the DOM.
+
 ## **Core Concepts You Should Know**
 #### **1. Components**
 - **What**: Building blocks of a React application. Each piece of the UI (e.g., a button, form, or dropdown) is a component.

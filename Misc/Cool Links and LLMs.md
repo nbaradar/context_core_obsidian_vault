@@ -1,10 +1,11 @@
->[!info]- Misc Links:
+>[!info] Misc Links:
 > - [The Technist Reformation: A Discussion with o1 About The Coming Economic Event Horizon](https://www.lesswrong.com/posts/6x9aKkjfoztcNYchs/the-technist-reformation-a-discussion-with-o1-about-the)
 > - [2025 and the future of local AI](https://www.reddit.com/r/LocalLLaMA/comments/1i1eyl5/2025_and_the_future_of_local_ai/)
 > - [Model Context Protocol](https://modelcontextprotocol.io/introduction)
 > - [Jetson Orin Dev Kit](https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/)
 >  - [Example: Visual Car Detection](https://www.youtube.com/watch?v=QHBr8hekCzg)
 > - [Titan AGI architecture](https://arxiv.org/abs/2501.00663)
+> - [3 Strats to Overcome Token Limits](https://www.bretcameron.com/blog/three-strategies-to-overcome-open-ai-token-limits)
 ## Leaderboards for LLM Models:
 - [BigCodeBench](https://bigcode-bench.github.io/)
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
@@ -15,18 +16,19 @@
 
 ## AI Communities:
 - [Hugging Face](https://huggingface.co/)
-- Kaggle 
+- [Kaggle](https://www.kaggle.com/)
 
 ## Tools
 - [https://ollama.com/](https://ollama.com/) - allows you to run open source LLMs locally on your machine. And can expose your LLM through an API
 - [https://notebooklm.google/](https://notebooklm.google/) - based on Gemini 1.5, research assistant for creative pursuits 
 - [https://www.langchain.com/](https://www.langchain.com/) - framework to build applications based on large language models. Great for Natural Language Processing
 - [https://www.cursor.com/](https://www.cursor.com/) - best IDE for AI enabled programming 
-- [https://www.codium.ai/](https://www.codium.ai/) - Another IDE for AI enabled programming
+- [https://www.codium.ai/](https://codeium.com/blog/windsurf-wave-2) - Another IDE for AI enabled programming
 - [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui) - Self hosted, offline, webUI AI interface that supports multiple models
 	- https://docs.openwebui.com/roadmap/ - Roadmap for OpenWebUI. You could potentially get ideas from them
 - https://github.com/cyberark/FuzzyAI - AI Fuzzer that is designed to break an LLM model
 - https://github.com/open-webui/pipelines?tab=readme-ov-file - Welcome to **Pipelines**, an [Open WebUI](https://github.com/open-webui) initiative. Pipelines bring modular, customizable workflows to any UI client supporting OpenAI API specs
+- https://sourcegraph.com/cody - AI IDE: Cody uses the latest LLMs and all your development context to help you understand, write, and fix code faster
 
 ## Different AI Services:
 - [Perplexity](https://www.perplexity.ai/) - More up-to-date information and summaries, best for learning

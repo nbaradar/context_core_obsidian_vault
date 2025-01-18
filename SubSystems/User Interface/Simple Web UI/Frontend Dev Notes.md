@@ -141,7 +141,21 @@ So then, you'll want to initialize the resultWindow with resultcards created fro
 > Realized that you will need CORS to run backend/frontend together. 
 > Refer here: [[CORS To run Frontend+Backend]]
 
+This is the current flow of your Props and their states (Jan 17)
+![[Pasted image 20250117192111.png]]
+This diagram illustrates:
+- Where state (`query`, `results`, `activeProviders`) is defined (`App.jsx`).
+- How props (`onSend`, `activeProviders`, `results`) are passed to child components.
+- How `InputSection` communicates with the backend via the `/query` endpoint and how results flow back into the app.
 
+1. **Keep Backend Calls in `App.jsx`**:
+    - Make the API call in `handleSendQuery` and update `results`.
+2. **Refactor API Calls**:
+    - Use a utility or API service file (`api.js`) to centralize the logic for making requests to `/query`.
+3. **Optimize Performance**:
+    - Use React’s `useCallback` to memoize `handleSendQuery` if it’s passed as a prop to multiple children.
+4. **Test Data Flow**:
+    - Use React DevTools to verify how `results` propagates from `App.jsx` to `ResultsWindow` and `ResultCard`.
 
 
 ---
