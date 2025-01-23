@@ -5,7 +5,6 @@ https://x.com/startuparchive_/status/1867190142802469019?t=t5uihsXah_7OCu-Id3_Ue
 
 \- Elon Musk
 
-
 ---
 ### **1. Validate the Idea**
 

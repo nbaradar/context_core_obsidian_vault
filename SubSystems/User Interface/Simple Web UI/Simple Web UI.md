@@ -1,6 +1,6 @@
 
 # Overall App Tasks
-- [ ] DB Integrations ➕ 2025-01-07 
+- [ ] DB Integrations ➕ 2025-01-07
 	- [x] MongoDB Client ✅ 2025-01-07
 	- [ ] MongoDB CRUD Operations
 		- [x] save_query_result ✅ 2025-01-07
@@ -16,11 +16,10 @@
 - [x] Create Frontend ✅ 2025-01-14
 	- [x] Initial MVP ✅ 2025-01-14
 		- [x] Create Chat area with text ✅ 2025-01-14
-			- [ ] `ChatHistory.jsx` : ~={red}TODO=~ For simple lists, using the array index to grab chat messages from `chatHistory` is fine, though unique IDs are better for more complex apps.
 		- [x] Create Text area ✅ 2025-01-12
 		- [x] Create button to submit ✅ 2025-01-12
 		- [x] Create LLM selection ✅ 2025-01-14
-- [ ] Connect FrontEnd to Backend
+- [x] Connect FrontEnd to Backend ✅ 2025-01-23
 
 
 ---
@@ -138,6 +137,7 @@ multiquery/
 - [[MongoDB connection]]
 - [[NPM Hints]]
 - [[React]]
+- [[Realtime Features]]
 - [[Tailwind CSS]]
 
 %% End Waypoint %%

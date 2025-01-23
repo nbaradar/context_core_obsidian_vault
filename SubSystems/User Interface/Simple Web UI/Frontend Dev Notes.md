@@ -157,6 +157,17 @@ This diagram illustrates:
 4. **Test Data Flow**:
     - Use React DevTools to verify how `results` propagates from `App.jsx` to `ResultsWindow` and `ResultCard`.
 
+You will need to restructure the /query response. Your current schema is not best practice for JSON
+>[!note]- JSON Best Practice
+>
+
+---
+
+
+
+
+
+
 
 ---
 

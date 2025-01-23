@@ -1,5 +1,7 @@
 # **Misc Ideas**
 
+## Jan 19 - Add OnlineOrNot to Website as Status page
+https://onlineornot.com/status-pages?utm_campaign=openrouter&utm_medium=powered-by&utm_source=onlineornot-status
 ## Jan 11 - ContextCore Parental Controls
 - Should have some kind of adult filter system. So for instance, you can make a children account and then either prevent them from using certain contexts (personal information), you can control which AI models they can use, you can view/manage their chat/prompt history, etc. 
 - Would also be a good marketing point. You can keep your kids safe and their data safe from companies. 
