@@ -21,6 +21,7 @@
 ## Tools
 - [OpenRouter](https://openrouter.ai/docs/quick-start): Open-AI compatible completion API to 296 models and providers
 - [Ollama](https://ollama.com/) - allows you to run open source LLMs locally on your machine. And can expose your LLM through an API
+- [Jan.AI](https://jan.ai/)
 - [NoteBookLM](https://notebooklm.google/) - based on Gemini  2.0, research assistant for creative pursuits 
 - [LangChain](https://www.langchain.com/) - framework to build applications based on large language models. Great for Natural Language Processing
 - [Cursor - Cline IDE](https://www.cursor.com/) - best IDE for AI enabled programming 

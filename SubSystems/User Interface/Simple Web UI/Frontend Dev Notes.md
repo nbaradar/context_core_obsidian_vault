@@ -121,7 +121,7 @@ This means youll have
 - [ ] You can update the checkbox https://daisyui.com/components/checkbox/
 	- [ ] https://daisyui.com/components/toggle/ using toggles might look cooler
 - [ ] You can use range to set the model temps https://daisyui.com/components/range/
-- [ ] Should use textarea for inputsection https://daisyui.com/components/textarea/
+- [x] Should use textarea for inputsection https://daisyui.com/components/textarea/ ✅ 2025-01-23
 - [ ] Use dividers between your ResultCards https://daisyui.com/components/divider/
 
 # Connect FrontEnd to BackEnd
@@ -160,6 +160,35 @@ This diagram illustrates:
 You will need to restructure the /query response. Your current schema is not best practice for JSON
 >[!note]- JSON Best Practice
 >
+
+# Markdown on ResultCards
+First you need to install correct libraries
+```bash
+npm install react-markdown
+npm install remark-gfm
+npm install rehype-raw
+```
+
+Then update resultCard to use react-markdown
+
+To make it look even better, add typography library from TailWind
+```bash
+npm install @tailwindcss/typography
+```
+
+And add to tailwind configs
+```js
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [require("@tailwindcss/typography")],
+};
+```
+
+
+
 
 ---
 

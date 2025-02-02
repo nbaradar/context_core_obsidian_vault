@@ -158,6 +158,16 @@ Couple of improvements need to be made to the current implementation:
 # Ability to select LLM Provider
 Accept a `providers` query parameter (e.g., `?providers=chatgpt,grok`) to filter which LLM providers are used.
 
+---
+# Logging
+### **What is Middleware?**
+Middleware in FastAPI is a layer of code that runs **before and/or after** every request that your application processes. Middleware allows you to intercept requests **before they hit your endpoints** (e.g., `/query`) and modify the request or perform some action (like logging). Similarly, it can also intercept the response **before it is sent back to the client**.
+
+Think of middleware as a "wrapper" around your app’s endpoints. It gives you control over what happens at the request and response level.
+
+---
+
+# 
 
 ---
 
