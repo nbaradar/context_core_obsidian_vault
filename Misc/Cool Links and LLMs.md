@@ -6,6 +6,7 @@
 >  - [Example: Visual Car Detection](https://www.youtube.com/watch?v=QHBr8hekCzg)
 > - [Titan AGI architecture](https://arxiv.org/abs/2501.00663)
 > - [3 Strats to Overcome Token Limits](https://www.bretcameron.com/blog/three-strategies-to-overcome-open-ai-token-limits)
+> - [Top 10 AI agent papers](https://hub.athina.ai/top-10-ai-agent-papers-from-january-2025-shaping-their-future/)
 ## Leaderboards for LLM Models:
 - [BigCodeBench](https://bigcode-bench.github.io/)
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
