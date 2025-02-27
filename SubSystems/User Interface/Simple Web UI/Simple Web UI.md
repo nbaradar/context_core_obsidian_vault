@@ -131,6 +131,7 @@ multiquery/
 %% Begin Waypoint %%
 - [[Axios]]
 - [[Backend Config Notes]]
+- [[Chat History Feature]]
 - [[Debugging with uvicorn]]
 - [[Frontend Dev Notes]]
 - [[Initial Front End Plan]]
