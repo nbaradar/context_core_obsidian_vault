@@ -9,6 +9,7 @@
 > - [Top 10 AI agent papers](https://hub.athina.ai/top-10-ai-agent-papers-from-january-2025-shaping-their-future/)
 ## Leaderboards for LLM Models:
 - [BigCodeBench](https://bigcode-bench.github.io/)
+- [Artifical Analysis](https://artificialanalysis.ai/models)
 - [LiveCodeBench](https://livecodebench.github.io/leaderboard.html)
 - [Aider Leaderboard](https://aider.chat/docs/leaderboards/)
 - [Lmsys](https://chat.lmsys.org/)
