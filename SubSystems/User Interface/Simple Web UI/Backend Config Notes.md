@@ -55,6 +55,17 @@ Pydantic is a Python library used for **data validation and settings management*
     - Automatically generates API request and response models.
     - Provides validation for endpoint parameters and request bodies.
 
+### How are we using Pydantic?
+   1. API Data Validation: The project uses FastAPI, which leverages Pydantic to validate
+      incoming API requests. For example, in backend/multiquery/api/endpoints/query.py, the
+      QueryRequest model ensures that any request to the query endpoint contains a prompt
+      string. This prevents errors from malformed requests.
+   
+   2. Configuration Management: Pydantic models in backend/multiquery/config/config.py define
+      the structure for the application's configuration, including settings for different LLM
+      providers and the database. This ensures that the configuration loaded from config.yaml
+      is valid and adheres to a strict, typed schema, which makes the application more robust
+      and easier to maintain.
 ---
 # Settings Configs using Pydantic
 
@@ -91,6 +102,23 @@ async def query_api(
 
 So the configurations are now global and mapped to Pydantic BaseModel Configs found in `multiquery -> core -> config.py`
 
+---
+### How exactly is this project leveraging dependency injection?
+
+   1. `Depends(get_provider_factory)`: Before query_api is executed, FastAPI calls the
+      get_provider_factory function (from backend/multiquery/api/dependencies.py). This
+      function is responsible for creating an instance of ProviderFactory, which knows how to
+      create the various LLM providers based on your configuration. The returned
+      ProviderFactory instance is then passed as the factory argument to your endpoint.
+
+   2. `Depends(get_mongo_client)`: Similarly, FastAPI calls get_mongo_client (from
+      backend/multiquery/utils/mongodb_client.py) to establish a connection to your MongoDB
+      database and passes the resulting client object as the mongo_client argument.
+
+  This design pattern decouples the endpoint logic from the instantiation of its
+  dependencies, making the code cleaner and easier to test.
+
+---
 ## Refactoring Config file
 Previous config file had llms providers seperated from their configs:
 ```yaml
