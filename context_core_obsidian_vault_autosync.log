@@ -757,3 +757,11 @@ fatal: could not read Username for 'https://github.com': Device not configured
 ✅ Synced at 2025-07-23 12:05:54 PM
 === [context_core_obsidian_vault] Sync started at 2025-07-23 06:04:58 PM ===
 fatal: unable to access 'https://github.com/nbaradar/context_core_obsidian_vault.git/': Could not resolve host: github.com
+[main e798f11] Auto sync: 2025-07-23 18:04:58
+ 1 file changed, 6 insertions(+)
+fatal: unable to access 'https://github.com/nbaradar/context_core_obsidian_vault.git/': Could not resolve host: github.com
+✅ Synced at 2025-07-23 06:04:58 PM
+=== [context_core_obsidian_vault] Sync started at 2025-07-25 12:00:00 PM ===
+From https://github.com/nbaradar/context_core_obsidian_vault
+ * branch            main       -> FETCH_HEAD
+Already up to date.
